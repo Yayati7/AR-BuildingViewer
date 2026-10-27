@@ -24,7 +24,7 @@ public static class PJ8ProjectSetup
             AssetDatabase.CreateFolder("Assets", "Scenes");
 
         var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
-        var cameraObject = new GameObject("Main Camera", typeof(Camera), typeof(AudioListener));
+        var cameraObject = new GameObject("Main Camera", typeof(Camera));
         cameraObject.tag = "MainCamera";
         cameraObject.transform.position = new Vector3(0, 4.4f, -8.5f);
         cameraObject.transform.rotation = Quaternion.Euler(25f, 0f, 0f);
@@ -51,3 +51,4 @@ public static class PJ8ProjectSetup
     }
 }
 #endif
+
