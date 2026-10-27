@@ -7,7 +7,7 @@ An Android augmented-reality house viewer made with Unity, AR Foundation, and AR
 1. Open Unity Hub and find **PJ8** in **Projects**.
 2. Open it with Unity **6.0 LTS** and wait while Unity imports the project and packages.
 3. Open `Assets/Scenes/PJ8Viewer.unity` and press the **Play** triangle.
-4. In the Game view, click the floor to place the house. Drag to rotate it; use **Zoom +**, **Zoom -**, **Rooms**, **Roof**, and **Reset** along the bottom to explore it.
+4. In the Game view toolbar, choose **1280×720 Landscape** and set **Scale** to **1×** so the whole preview and its controls fit. If needed, double-click the **Game** tab to expand it. Click the floor to place the house. Drag to rotate it; use **Zoom +**, **Zoom -**, **Rooms**, **Roof**, and **Reset** along the bottom to explore it.
 
 The desktop preview needs no server and no phone. If Windows asks whether **adb** may access public or private networks, choose **Cancel**; that network permission is not needed for the desktop preview. If Unity shows an Input System prompt, choose **Don't Enable** so the project keeps its current mouse and touch input setup.
 
@@ -21,3 +21,4 @@ The project includes AR Foundation and ARCore packages. **ARCore is enabled and 
 - Unity Hub is the project launcher; there is no web server to start.
 - Full AR requires a supported Android phone and the Android build tools installed through Unity Hub.
 - The Android app has not yet been installed or tested on a physical phone.
+
